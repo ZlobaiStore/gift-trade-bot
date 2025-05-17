@@ -24,7 +24,7 @@ async def get_course():
 
 @dp.message(Command("start"))
 async def cmd_start(message: Message):
-    await message.answer(f"Привет, {hbold(message.from_user.full_name)}!
+    await message.answer(f"Привет, {hbold(message.from_user.full_name)}!")
 Я аналитический бот по Telegram Gifts и криптовалюте. Напиши /help для списка команд.")
 
 @dp.message(Command("help"))
